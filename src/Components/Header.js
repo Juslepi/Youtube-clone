@@ -11,7 +11,7 @@ import { PlayIcon } from "@heroicons/react/solid";
 const Header = () => {
   return (
     <div className="h-14 text-white bg-gray-800 p-2 flex items-center">
-      <MenuIcon className="h-6 w-6 mx-4 " />
+      <MenuIcon className="youtube-icon mx-4 " />
       <div className="flex items-center mx-8">
         <PlayIcon className="h-6 w-10  border-4 border-red-600 rounded-md bg-red-600" />
         <p className="text-xl font-semibold  tracking-tighter">YouTube</p>
@@ -28,9 +28,9 @@ const Header = () => {
       </form>
       {/* Right Side Icons */}
       <div className="flex mx-4 w-2/6 max-w-xs items-center justify-around">
-        <VideoCameraIcon className="h-6 w-6 " />
-        <ViewGridIcon className="h-6 w-6 " />
-        <BellIcon className="h-6 w-6 " />
+        <VideoCameraIcon className="youtube-icon " />
+        <ViewGridIcon className="youtube-icon " />
+        <BellIcon className="youtube-icon " />
         <button className=" font-bold px-4 py-2 bg-gray-400 rounded-full">
           J
         </button>
