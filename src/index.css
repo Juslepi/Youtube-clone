@@ -35,4 +35,16 @@
     width: 245px;
     max-width: 245px;
   }
+
+  .avatar {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
