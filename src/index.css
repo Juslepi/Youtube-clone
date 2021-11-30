@@ -47,4 +47,15 @@
     align-items: center;
     text-align: center;
   }
+
+  .icon-container {
+    font-size: 0.7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    min-height: 72px;
+  }
 }
