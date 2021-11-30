@@ -10,7 +10,7 @@ import { PlayIcon } from "@heroicons/react/solid";
 
 const Header = () => {
   return (
-    <div className="text-white bg-gray-800 p-2 flex items-center">
+    <div className="h-14 text-white bg-gray-800 p-2 flex items-center">
       <MenuIcon className="h-6 w-6 mx-4 " />
       <div className="flex items-center mx-8">
         <PlayIcon className="h-6 w-10  border-4 border-red-600 rounded-md bg-red-600" />
@@ -19,11 +19,11 @@ const Header = () => {
       </div>
       <form className="flex items-center flex-grow">
         <input
-          className="hidden md:block bg-transparent bg-gray-900 flex-grow h-full p-2 py-4"
+          className="hidden md:block bg-transparent bg-gray-900 flex-grow h-full p-2"
           type="text"
           placeholder="Search"
         />
-        <SearchIcon className="p-4 h-12 w-16  md:bg-gray-700" />
+        <SearchIcon className="p-2 h-9 w-16 md:bg-gray-700" />
         <MicrophoneIcon className="p-2 h-10 w-10 ml-2  bg-gray-900 rounded-full" />
       </form>
       {/* Right Side Icons */}
