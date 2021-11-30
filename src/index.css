@@ -18,4 +18,21 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+  .thumbnail {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    width: 245px;
+    height: 145px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 245px;
+    max-width: 245px;
+  }
 }
