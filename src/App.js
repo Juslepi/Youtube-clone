@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-gray-900 h-full">
       <Sidebar />
-      <div className="ml-16">
+      <div className="md:ml-16">
         <Header />
         <Tagbar />
         <VideoContainer />

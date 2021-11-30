@@ -8,7 +8,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="text-white fixed h-full top-0 left-0 w-16 z-10 bg-gray-800">
+    <div className="invisible md:visible text-white fixed h-full top-0 left-0 w-16 z-10 bg-gray-800">
       <div className="icon-container">
         <MenuIcon className="youtube-icon" />
       </div>

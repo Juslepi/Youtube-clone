@@ -10,14 +10,14 @@ import { PlayIcon } from "@heroicons/react/solid";
 
 const Header = () => {
   return (
-    <div className="h-14 text-white bg-gray-800 p-2 flex items-center">
-      <MenuIcon className="youtube-icon mx-4 " />
-      <div className="flex items-center mx-8">
+    <div className="h-14 text-white bg-gray-800 flex items-center">
+      <MenuIcon className="md:invisible ml-2 youtube-icon " />
+      <div className="flex items-center">
         <PlayIcon className="h-6 w-10  border-4 border-red-600 rounded-md bg-red-600" />
         <p className="text-xl font-semibold  tracking-tighter">YouTube</p>
         <p className="relative bottom-1 left-1  text-xs font-thin b-2">FI</p>
       </div>
-      <form className="flex items-center flex-grow">
+      <form className="ml-4 flex items-center flex-grow">
         <input
           className="hidden md:block bg-transparent bg-gray-900 flex-grow h-full p-2"
           type="text"
