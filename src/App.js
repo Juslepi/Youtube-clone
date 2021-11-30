@@ -1,9 +1,11 @@
 import Header from "./Components/Header";
+import Tagbar from "./Components/Tagbar";
 
 function App() {
   return (
-    <div >
+    <div>
       <Header />
+      <Tagbar />
     </div>
   );
 }
