@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import Tag from "./Tag";
+
 const Tagbar = () => {
   const [tags, setTags] = useState([]);
 
@@ -23,12 +25,7 @@ const Tagbar = () => {
     <div className="p-4 bg-gray-800 text-white border-t border-b border-opacity-20 ">
       <div className="mx-12 flex overflow-x-scroll no-scrollbar">
         {tags.map((tag, index) => (
-          <p
-            className="text-sm bg-gray-600 mx-2 px-2 py-1 border border-opacity-20 rounded-full whitespace-nowrap"
-            key={index}
-          >
-            {tag}
-          </p>
+          <Tag key={index} text={tag} />
         ))}
       </div>
     </div>

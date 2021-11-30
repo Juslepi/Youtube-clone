@@ -1,11 +1,11 @@
-import React from 'react'
+const Tag = ({ text }) => {
+  return (
+    <div>
+      <p className="text-sm bg-gray-600 mx-2 px-2 py-1 border border-opacity-20 rounded-full whitespace-nowrap">
+        {text}
+      </p>
+    </div>
+  );
+};
 
-const Tag = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default Tag
+export default Tag;
