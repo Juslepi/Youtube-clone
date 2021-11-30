@@ -5,6 +5,7 @@
 
 @layer utilities {
   .youtube-icon {
+    cursor: pointer;
     height: 1.5rem;
     width: 1.5rem;
   }
@@ -49,6 +50,7 @@
   }
 
   .icon-container {
+    cursor: pointer;
     font-size: 0.7rem;
     text-align: center;
     display: flex;

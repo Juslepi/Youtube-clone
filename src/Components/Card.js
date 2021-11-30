@@ -1,7 +1,7 @@
 const Card = () => {
   //Thumnail, uploader, views, upload-time
   return (
-    <div className="card m-2 text-gray-400 text-xs">
+    <div className="card m-2 text-gray-400 text-xs cursor-pointer">
       <div id="thumbnail" className="thumbnail mb-2">
         ?
       </div>
