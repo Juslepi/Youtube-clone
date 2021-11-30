@@ -4,8 +4,18 @@
 @tailwind utilities;
 
 @layer utilities {
-    .youtube-icon {
-        height: 1.5rem;
-        width: 1.5rem;
-    }
+  .youtube-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
