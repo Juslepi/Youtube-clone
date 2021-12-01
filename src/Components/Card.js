@@ -2,7 +2,7 @@ const Card = ({ title, channel, views, thumbnail }) => {
   const viewerAmount = (views) => {
     if (views < 1000) return `${views} katselukertaa`;
     else if (views < 1000000)
-      return `${Math.round((views / 1000) * 10) / 10} t. katselukertaa`;
+      return `${Math.round(views / 1000)} t. katselukertaa`;
     else return `${Math.round((views / 1000000) * 10) / 10} m. katselukertaa`;
   };
   return (
