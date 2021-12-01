@@ -9,7 +9,7 @@ const VideoContainer = () => {
   useEffect(() => {
     axios
       .get(
-        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=FI&maxResults=10&key=${process.env.REACT_APP_API_KEY}`
+        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=FI&maxResults=25&key=${process.env.REACT_APP_API_KEY}`
       )
       .then((res) => setVideos(res.data.items));
   });
