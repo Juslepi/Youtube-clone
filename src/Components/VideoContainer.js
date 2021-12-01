@@ -32,11 +32,3 @@ const VideoContainer = () => {
 };
 
 export default VideoContainer;
-
-// useEffect(() => {
-//   const tmp = [];
-//   for (let i = 0; i < 10; i++) {
-//     tmp.push(i);
-//   }
-//   setVideos(tmp);
-// }, []);
