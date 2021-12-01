@@ -5,7 +5,7 @@ import VideoContainer from "./Components/VideoContainer";
 
 function App() {
   return (
-    <div className="bg-gray-900 h-full">
+    <div className="bg-gray-900 min-h-screen min-w-full">
       <Sidebar />
       <div className="md:ml-16">
         <Header />

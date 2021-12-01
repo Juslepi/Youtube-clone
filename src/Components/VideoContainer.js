@@ -12,7 +12,7 @@ const VideoContainer = () => {
     setVideos(tmp);
   }, []);
   return (
-    <div className="flex justify-center md:justify-start w-full h-full flex-wrap text-white bg-gray-900 m-2">
+    <div className="flex justify-center md:justify-start min-w-full h-full flex-wrap text-white bg-gray-900 m-2">
       {videos.map((video, index) => {
         return <Card key={index} />;
       })}
